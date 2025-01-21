@@ -1,0 +1,40 @@
+.custom_confirmation_pop_up{
+    font-size: 0.8rem !important;
+    .q-dialog__title{
+      border-bottom: 2px solid rgb(203, 203, 203);
+    }
+    .q-dialog__message{
+     font-size: 0.8rem !important;
+      margin-top: 0.8rem;
+    }
+    .q-card__actions{
+     font-size: 0.8rem !important;
+        button:first-of-type {
+     font-size: 0.8rem !important;
+  
+        background-color: rgb(214, 214, 214) !important;
+        color: black !important;
+      }
+       button:last-of-type{
+     font-size: 0.8rem !important;
+  
+        background-color: #31a681 !important;
+        color: rgb(244, 244, 244) !important;
+      }
+    }
+    .q-btn::before {
+      box-shadow: none !important;
+    }
+  }
+
+  .spinner-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5); 
+  }

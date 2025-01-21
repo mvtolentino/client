@@ -37,7 +37,7 @@ quasar build
 
 
 - Check the axios.js on src/boot/axios.js.
-- Change the baseUrl depends on what host you are using
+- Change the baseUrl depends on what host you are using on backend
 - Then try to create, update, delete and view customer
 ```
 

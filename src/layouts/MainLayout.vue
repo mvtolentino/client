@@ -38,11 +38,11 @@
         </tbody>
         <tbody v-else>
             <tr v-for="(lists, index) in list" :key="index">
-                <td>{{ lists.id }}</td>
-                <td>{{ lists.first_name }}</td>
-                <td>{{ lists.last_name }}</td>
-                <td>{{ lists.email }}</td>
-                <td>{{ lists.contact }}</td>
+                <td class="text-center">{{ lists.id }}</td>
+                <td class="text-center">{{ lists.first_name }}</td>
+                <td class="text-center">{{ lists.last_name }}</td>
+                <td class="text-center">{{ lists.email }}</td>
+                <td class="text-center">{{ lists.contact }}</td>
                 <td>
                     <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
                         <q-btn color="secondary" icon="people" label="View" @click="viewCustomer(lists)" />
